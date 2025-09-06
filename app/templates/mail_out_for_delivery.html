@@ -1,0 +1,17 @@
+<body>
+    <P>
+        Hi!
+    </P>
+    <p>
+        Your order with {{seller}} is picked up by
+    </p>
+    <p>
+        {{partner}} and is out for delivery.
+    </p>
+    {% if verification_code %}
+    <p> Share {{verification_code}} with delivery rider to recieve your order!</p>
+    {% endif %}
+    <p>
+        Powered by FastShip!
+    </p>
+</body>
